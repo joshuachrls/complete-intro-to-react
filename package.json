@@ -2,6 +2,11 @@
   "scripts": {
     "api": "node ratingsAPI.js"
   },
+  "standard": {
+    "ignore": [
+      "ratingsAPI.js"
+    ]
+  },
   "dependencies": {
     "axios": "^0.16.2",
     "babel-plugin-dynamic-import-webpack": "1.0.1",
